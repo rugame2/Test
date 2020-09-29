@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #a23425;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1></h1>
+  <body>
+    <img src="Idas Logo.jpg"style="height: 250px;">>
+  </body>
+  <p></p>
+</div>
+
+<div class="navbar">
+  <a href="#">Ida's Gourmet Breads</a>
+  <a href="#">Products</a>
+  <a href="#">Pricing</a>
+  <a href="Contact_us.html">Contact Us</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h5>Ida's Blog, September 20, 2020</h5>
+    <h2>Background</h2>
+    
+    <h5> Started out as a IT network engineer and Oracle DBA. Decided to open my own business, owning a food manufacturing business.Pivoting into software engineering, because I love the challenge of making things happen and getting results.</h5>
+    <img src="ida.jpg" style="height:200px;">
+    
+    <h3>All Natural Muffins</h3>
+    <img src="muffins.jpg" style="height:150px;"></div><br>
+    
+  
+  </div>
+  <div class="main">
+    <h2>Gourmet Products</h2>
+    
+    
+    <body>
+    <img src="Baskets.jpg" style="height: 150px;">>" </body>
+    <p>A little about me..</p>
+    <p>I have worked as a network engineer and Oracle database administrator for a consulting company. Due to downsizing, decided to open a business. Successfully ran a food manufacturing company for sixteen years until 2019. Employed as a External Manufacturing Manager for Beyond Meat until the pandemic. Now I am pivoting into software engineering. Enjoy the challenge of problem solving.  </p>
+    <br>
+      
+
+</body>
+</html>
